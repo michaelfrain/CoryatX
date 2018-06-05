@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D33ACA2520C6FA3000E36DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACA2420C6FA3000E36DF6 /* AppDelegate.swift */; };
-		D33ACA2720C6FA3000E36DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACA2620C6FA3000E36DF6 /* ViewController.swift */; };
 		D33ACA2A20C6FA3000E36DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33ACA2820C6FA3000E36DF6 /* Main.storyboard */; };
 		D33ACA2C20C6FA3700E36DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33ACA2B20C6FA3700E36DF6 /* Assets.xcassets */; };
 		D33ACA2F20C6FA3700E36DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33ACA2D20C6FA3700E36DF6 /* LaunchScreen.storyboard */; };
 		D33ACA3A20C6FA3700E36DF6 /* CoryatXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACA3920C6FA3700E36DF6 /* CoryatXTests.swift */; };
 		D33ACA4520C6FA3700E36DF6 /* CoryatXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACA4420C6FA3700E36DF6 /* CoryatXUITests.swift */; };
+		D33ACA5320C6FDB500E36DF6 /* ClueFoundations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACA5220C6FDB500E36DF6 /* ClueFoundations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		D33ACA2120C6FA3000E36DF6 /* CoryatX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoryatX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33ACA2420C6FA3000E36DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D33ACA2620C6FA3000E36DF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D33ACA2920C6FA3000E36DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D33ACA2B20C6FA3700E36DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33ACA2E20C6FA3700E36DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		D33ACA4020C6FA3700E36DF6 /* CoryatXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoryatXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33ACA4420C6FA3700E36DF6 /* CoryatXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoryatXUITests.swift; sourceTree = "<group>"; };
 		D33ACA4620C6FA3700E36DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33ACA5220C6FDB500E36DF6 /* ClueFoundations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueFoundations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				D33ACA2420C6FA3000E36DF6 /* AppDelegate.swift */,
-				D33ACA2620C6FA3000E36DF6 /* ViewController.swift */,
 				D33ACA2820C6FA3000E36DF6 /* Main.storyboard */,
 				D33ACA2B20C6FA3700E36DF6 /* Assets.xcassets */,
 				D33ACA2D20C6FA3700E36DF6 /* LaunchScreen.storyboard */,
 				D33ACA3020C6FA3700E36DF6 /* Info.plist */,
+				D33ACA5220C6FDB500E36DF6 /* ClueFoundations.swift */,
 			);
 			path = CoryatX;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33ACA2720C6FA3000E36DF6 /* ViewController.swift in Sources */,
 				D33ACA2520C6FA3000E36DF6 /* AppDelegate.swift in Sources */,
+				D33ACA5320C6FDB500E36DF6 /* ClueFoundations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
